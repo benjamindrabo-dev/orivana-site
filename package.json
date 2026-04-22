@@ -1,0 +1,13 @@
+{
+  "name": "orivana-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Orivana — agence SEO IA québécoise. Site statique + API serverless Claude.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0"
+  }
+}
