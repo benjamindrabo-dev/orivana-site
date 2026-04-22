@@ -56,7 +56,7 @@ OUTPUT FORMAT — strictly this terminal structure, one instruction per line, no
   ⑤ <action>
 
 📈 Estimated upside: <range>% leads in 90 days
-🔒 Exclusivity verified: only 1 ${service} accepted in ${city}
+🍁 Agence canadienne · réponse sous 24h
 
 ➜ This is a preview. Orivana's full report is 40 pages.
 
@@ -106,7 +106,7 @@ FORMAT DE SORTIE — strictement cette structure terminal, une instruction par l
   ⑤ <action>
 
 📈 Potentiel estimé : <fourchette>% de leads sur 90 jours
-🔒 Exclusivité vérifiée : 1 seul ${service} accepté à ${city}
+🍁 Agence canadienne · réponse sous 24h
 
 ➜ Ceci est un aperçu. Le rapport complet d'Orivana fait 40 pages.
 

@@ -100,7 +100,7 @@ Le site est déjà configuré pour un bon référencement :
 
 Après le déploiement :
 1. Crée une propriété sur [Google Search Console](https://search.google.com/search-console)
-2. Soumets `https://orivana.ai/sitemap.xml`
+2. Soumets `https://orivanamarketing.com/sitemap.xml`
 3. Branche Google Analytics 4 (recommandé pour mesurer les conversions du chat et du formulaire)
 
 ## 7. Dépannage

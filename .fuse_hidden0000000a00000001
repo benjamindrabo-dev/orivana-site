@@ -21,7 +21,7 @@
 
 <nav class="nav">
   <div class="nav-inner">
-    <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana Marketing</span></a>
+    <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana</span></a>
     <ul class="nav-links">
       <li><a href="index.html" data-fr="Accueil" data-en="Home">Accueil</a></li>
       <li><a href="services.html" data-fr="Services" data-en="Services">Services</a></li>
@@ -97,10 +97,10 @@
         </p>
       </div>
       <div class="card">
-        <div class="card-icon">⚡</div>
-        <h3 data-fr="Résultats mesurables" data-en="Measurable results">Résultats mesurables</h3>
-        <p data-fr="Chaque mois, on vous remet un dashboard clair : positions map pack, appels reçus, avis gagnés, citations IA, coût par lead Meta. Pas de métriques vanity, que du concret." data-en="Every month, you get a clear dashboard: map pack positions, calls received, reviews earned, AI citations, Meta cost per lead. No vanity metrics, just what matters.">
-          Chaque mois, on vous remet un dashboard clair : positions map pack, appels reçus, avis gagnés, citations IA, coût par lead Meta. Pas de métriques vanity, que du concret.
+        <div class="card-icon">🔒</div>
+        <h3 data-fr="Un seul client par domaine" data-en="One client per sector">Un seul client par domaine</h3>
+        <p data-fr="Exclusivité stricte : <strong>un seul client par domaine d'activité, par ville</strong>. Si on accompagne un plombier à Laval, on refusera tout autre plombier de Laval. Votre concurrent direct ne peut pas avoir le même levier que vous." data-en="Strict exclusivity: <strong>one single client per activity sector, per city</strong>. If we onboard a plumber in Laval, we refuse any other Laval plumber. Your direct competitor can't get the same leverage you have.">
+          Exclusivité stricte : <strong>un seul client par domaine d'activité, par ville</strong>. Si on accompagne un plombier à Laval, on refusera tout autre plombier de Laval. Votre concurrent direct ne peut pas avoir le même levier que vous.
         </p>
       </div>
       <div class="card">
@@ -128,7 +128,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-col">
-        <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana Marketing</span></a>
+        <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana</span></a>
         <p data-fr="L'agence SEO propulsée par l'IA pour les commerces locaux." data-en="AI-powered SEO for local businesses.">L'agence SEO propulsée par l'IA pour les commerces locaux.</p>
       </div>
       <div class="footer-col">

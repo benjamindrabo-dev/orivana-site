@@ -35,14 +35,14 @@
   .check li::before { content: '☐'; position: absolute; left: 0; top: 0; font-size: 20px; color: var(--brand); }
 </style>
 <script type="application/ld+json">
-{ "@context": "https://schema.org", "@type": "Article", "headline": "Audit SEO local : la checklist 40 points d'un expert SEO", "author": { "@type": "Organization", "name": "Orivana Marketing" }, "publisher": { "@type": "Organization", "name": "Orivana Marketing", "url": "https://orivanamarketing.com/" }, "datePublished": "2026-04-03", "dateModified": "2026-04-03", "mainEntityOfPage": "https://orivanamarketing.com/blog/audit-seo-local-checklist.html", "inLanguage": "fr-CA" }
+{ "@context": "https://schema.org", "@type": "Article", "headline": "Audit SEO local : la checklist 40 points d'un expert SEO", "author": { "@type": "Organization", "name": "Orivana" }, "publisher": { "@type": "Organization", "name": "Orivana", "url": "https://orivanamarketing.com/" }, "datePublished": "2026-04-03", "dateModified": "2026-04-03", "mainEntityOfPage": "https://orivanamarketing.com/blog/audit-seo-local-checklist.html", "inLanguage": "fr-CA" }
 </script>
 </head>
 <body>
 
 <nav class="nav">
   <div class="nav-inner">
-    <a href="../index.html" class="logo"><span class="logo-mark">O</span><span>Orivana Marketing</span></a>
+    <a href="../index.html" class="logo"><span class="logo-mark">O</span><span>Orivana</span></a>
     <ul class="nav-links">
       <li><a href="../index.html">Accueil</a></li>
       <li><a href="../services.html">Services</a></li>
@@ -190,7 +190,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-col">
-        <a href="../index.html" class="logo"><span class="logo-mark">O</span><span>Orivana Marketing</span></a>
+        <a href="../index.html" class="logo"><span class="logo-mark">O</span><span>Orivana</span></a>
         <p>L'agence SEO IA qui combine référencement local, Meta Ads et contact IA 24/7 pour les commerces canadiens.</p>
       </div>
       <div class="footer-col">

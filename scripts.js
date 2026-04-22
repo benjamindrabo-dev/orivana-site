@@ -68,7 +68,6 @@ var DEMO_SCRIPT_FR = [
   { text: "  ⑤ Répondre à tous les avis existants", delay: 350, cls: 'good' },
   { text: "", delay: 200 },
   { text: "📈 Potentiel estimé : +340% de leads sur 90 jours", delay: 600, ai: true, cls: 'score' },
-  { text: "🔒 Exclusivité vérifiée : 1 seul {service} accepté à {city}", delay: 400, ai: true, cls: 'good' },
   { text: "", delay: 100 },
   { text: "➜ Ceci est un aperçu. Le rapport complet d'Orivana fait 40 pages.", delay: 400, cls: 'good' }
 ];
@@ -103,7 +102,6 @@ var DEMO_SCRIPT_EN = [
   { text: "  ⑤ Reply to all existing reviews", delay: 350, cls: 'good' },
   { text: "", delay: 200 },
   { text: "📈 Estimated upside: +340% leads in 90 days", delay: 600, ai: true, cls: 'score' },
-  { text: "🔒 Exclusivity verified: only 1 {service} accepted in {city}", delay: 400, ai: true, cls: 'good' },
   { text: "", delay: 100 },
   { text: "➜ This is a preview. Orivana's full report is 40 pages.", delay: 400, cls: 'good' }
 ];
@@ -333,19 +331,19 @@ var CHAT_I18N = {
     placeholder: "Écrivez un message…",
     quick: [
       { text: "💬 Combien ça coûte ?", prompt: "Combien ça coûte ?" },
-      { text: "📍 Vérifier mon exclusivité", prompt: "Je veux vérifier l'exclusivité pour mon secteur et ma ville." },
+      { text: "🎯 Bon pour mon secteur ?", prompt: "Est-ce que ça peut marcher pour mon secteur et ma ville ?" },
       { text: "📢 Campagnes Meta Ads ?", prompt: "Parle-moi de vos campagnes Meta Ads avec génération de leads." },
       { text: "🎁 Audit gratuit", prompt: "Je veux mon audit SEO IA gratuit." }
     ],
     disclaimer: "Propulsé par Claude · Vos données ne servent pas à l'entraînement",
     fallback: {
-      seo: "Notre offre SEO IA : 250$ USD/mois, tout inclus — audit IA mensuel, 30 posts Google Business Profile, réponses aux avis, optimisation des citations ChatGPT / Perplexity / Google AI. Sans contrat annuel. Et on garde une exclusivité stricte : 1 seul client par domaine, par ville.",
-      ads: "Oui ! En plus du SEO, on gère vos campagnes Meta Ads (Facebook + Instagram) avec génération de leads. C'est +150$ USD/mois en sus (SEO + Ads = 400$/mois) + votre budget pub. On crée les créatifs avec l'IA, on bâtit le funnel lead gen, et on vous envoie les leads qualifiés directement par SMS/courriel.",
+      seo: "Notre offre SEO IA : 299$ CAD/mois, tout inclus — audit IA mensuel, 30 posts Google Business Profile, réponses aux avis, optimisation des citations ChatGPT / Perplexity / Google AI. Sans contrat annuel, résiliable en 1 clic, et tout ce qu'on produit t'appartient dès le jour 1.",
+      ads: "Oui ! En plus du SEO, on gère vos campagnes Meta Ads (Facebook + Instagram) avec génération de leads. C'est +200$ CAD/mois en sus (SEO + Ads = 499$/mois) + votre budget pub. On crée les créatifs avec l'IA, on bâtit le funnel lead gen, et on vous envoie les leads qualifiés directement par SMS/courriel.",
       chat: "Ce chat, c'est justement ça : contact IA direct avec Orivana. Plus besoin d'attendre une réponse courriel — vous avez une vraie réponse Claude en temps réel. Et on peut aussi installer ce même widget sur VOTRE site pour convertir vos visiteurs pendant que vous êtes en chantier.",
-      price: "250$ USD/mois pour le SEO complet (sans contrat, résiliable en 1 clic). +150$/mois si vous voulez aussi la gestion Meta Ads + lead gen. Pas de frais de setup. Audit offert en bonus.",
-      exclusivity: "Pour vérifier l'exclusivité j'ai besoin de 2 infos : votre domaine d'activité (ex. plomberie, rénovation, dentiste) et votre ville. Vous pouvez me les donner ?",
+      price: "299$ CAD/mois pour le SEO complet (sans contrat, résiliable en 1 clic). +200$/mois si vous voulez aussi la gestion Meta Ads + lead gen. Pas de frais de setup. Audit offert en bonus.",
+      exclusivity: "Pour t'évaluer correctement j'ai besoin de 2 infos : ton domaine d'activité (ex. plomberie, rénovation, clinique esthétique, dentiste) et ta ville. Tu peux me les donner ?",
       audit: "Parfait ! Pour votre audit offert il me faut : 1) le nom de votre commerce, 2) votre ville, 3) votre service principal, 4) un email où envoyer le rapport. On le livre sous 24h.",
-      default: "Bonne question ! Pour une réponse personnalisée, remplissez le formulaire de contact (réponse sous 24h) ou écrivez-nous à hello@orivana.ai. On peut aussi planifier un call de 20 min."
+      default: "Bonne question ! Pour une réponse personnalisée, remplissez le formulaire de contact (réponse sous 24h) ou écrivez-nous à hello@orivanamarketing.com. On peut aussi planifier un call de 20 min."
     }
   },
   en: {
@@ -355,19 +353,19 @@ var CHAT_I18N = {
     placeholder: "Type a message…",
     quick: [
       { text: "💬 How much is it?", prompt: "How much does it cost?" },
-      { text: "📍 Check my exclusivity", prompt: "I want to check exclusivity for my sector and city." },
+      { text: "🎯 Right for my sector?", prompt: "Will this work for my sector and city?" },
       { text: "📢 Meta Ads campaigns?", prompt: "Tell me about your Meta Ads campaigns with lead generation." },
       { text: "🎁 Free audit", prompt: "I want my free AI SEO audit." }
     ],
     disclaimer: "Powered by Claude · Your data is not used for training",
     fallback: {
-      seo: "Our AI SEO service is $250 USD/month, all included: monthly AI audit, 30 Google Business Profile posts, review replies, ChatGPT / Perplexity / Google AI citation optimization. No annual contract. Strict exclusivity: 1 client per sector, per city.",
-      ads: "Yes! On top of SEO, we run your Meta Ads campaigns (Facebook + Instagram) with lead generation. It's +$150 USD/month (SEO + Ads = $400/month) plus your ad budget. We create the AI-powered creatives, build the lead-gen funnel and send qualified leads straight to your SMS/email.",
+      seo: "Our AI SEO service is 299 $ CAD/month, all included: monthly AI audit, 30 Google Business Profile posts, review replies, ChatGPT / Perplexity / Google AI citation optimization. No annual contract, cancel in 1 click, and everything we produce belongs to you from day 1.",
+      ads: "Yes! On top of SEO, we run your Meta Ads campaigns (Facebook + Instagram) with lead generation. It's +$200 CAD/month (SEO + Ads = $499 CAD/month) plus your ad budget. We create the AI-powered creatives, build the lead-gen funnel and send qualified leads straight to your SMS/email.",
       chat: "This live chat IS the feature: immediate AI contact with Orivana. No more waiting for an email reply — you get a real Claude answer in real time. And we can install this same widget on YOUR website to convert visitors while you're on the job.",
-      price: "$250 USD/month for full SEO (no contract, cancel in 1 click). +$150/month if you also want Meta Ads + lead gen management. No setup fees. Free audit included.",
-      exclusivity: "To check exclusivity I need 2 things: your activity sector (e.g. plumbing, renovation, dentist) and your city. Can you share them?",
+      price: "299 $ CAD/month for full SEO (no contract, cancel in 1 click). +$200 CAD/month if you also want Meta Ads + lead gen management. No setup fees. Free audit included.",
+      exclusivity: "To evaluate your case I need 2 things: your activity sector (e.g. plumbing, renovation, aesthetic clinic, dentist) and your city. Can you share them?",
       audit: "Great! For your free audit I need: 1) your business name, 2) your city, 3) your main service, 4) an email to send the report. We deliver in 24h.",
-      default: "Good question! For a personalized answer, fill the contact form (reply within 24h) or email hello@orivana.ai. We can also book a 20-min call."
+      default: "Good question! For a personalized answer, fill the contact form (reply within 24h) or email hello@orivanamarketing.com. We can also book a 20-min call."
     }
   }
 };

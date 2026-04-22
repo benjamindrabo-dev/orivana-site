@@ -21,7 +21,7 @@
 
 <nav class="nav">
   <div class="nav-inner">
-    <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana Marketing</span></a>
+    <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana</span></a>
     <ul class="nav-links">
       <li><a href="index.html" data-fr="Accueil" data-en="Home">Accueil</a></li>
       <li><a href="services.html" data-fr="Services" data-en="Services">Services</a></li>
@@ -167,7 +167,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-col">
-        <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana Marketing</span></a>
+        <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana</span></a>
         <p data-fr="L'agence SEO propulsée par l'IA pour les commerces locaux." data-en="AI-powered SEO for local businesses.">L'agence SEO propulsée par l'IA pour les commerces locaux.</p>
       </div>
       <div class="footer-col">

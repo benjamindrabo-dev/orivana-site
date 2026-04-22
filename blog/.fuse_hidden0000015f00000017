@@ -32,14 +32,14 @@
   .article-meta { display: flex; gap: 16px; color: var(--text-3); font-size: 14px; margin-bottom: 32px; flex-wrap: wrap; }
 </style>
 <script type="application/ld+json">
-{ "@context": "https://schema.org", "@type": "Article", "headline": "SEO local pour clinique esthétique : le guide 2026", "author": { "@type": "Organization", "name": "Orivana Marketing" }, "publisher": { "@type": "Organization", "name": "Orivana Marketing", "url": "https://orivanamarketing.com/" }, "datePublished": "2026-04-10", "dateModified": "2026-04-10", "mainEntityOfPage": "https://orivanamarketing.com/blog/seo-local-clinique-esthetique.html", "inLanguage": "fr-CA" }
+{ "@context": "https://schema.org", "@type": "Article", "headline": "SEO local pour clinique esthétique : le guide 2026", "author": { "@type": "Organization", "name": "Orivana" }, "publisher": { "@type": "Organization", "name": "Orivana", "url": "https://orivanamarketing.com/" }, "datePublished": "2026-04-10", "dateModified": "2026-04-10", "mainEntityOfPage": "https://orivanamarketing.com/blog/seo-local-clinique-esthetique.html", "inLanguage": "fr-CA" }
 </script>
 </head>
 <body>
 
 <nav class="nav">
   <div class="nav-inner">
-    <a href="../index.html" class="logo"><span class="logo-mark">O</span><span>Orivana Marketing</span></a>
+    <a href="../index.html" class="logo"><span class="logo-mark">O</span><span>Orivana</span></a>
     <ul class="nav-links">
       <li><a href="../index.html">Accueil</a></li>
       <li><a href="../services.html">Services</a></li>
@@ -248,7 +248,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-col">
-        <a href="../index.html" class="logo"><span class="logo-mark">O</span><span>Orivana Marketing</span></a>
+        <a href="../index.html" class="logo"><span class="logo-mark">O</span><span>Orivana</span></a>
         <p>L'agence SEO IA qui combine référencement local, Meta Ads et contact IA 24/7 pour les commerces canadiens.</p>
       </div>
       <div class="footer-col">

@@ -22,7 +22,7 @@
 
 <nav class="nav">
   <div class="nav-inner">
-    <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana Marketing</span></a>
+    <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana</span></a>
     <ul class="nav-links">
       <li><a href="index.html" data-fr="Accueil" data-en="Home">Accueil</a></li>
       <li><a href="services.html" class="active" data-fr="Services" data-en="Services">Services</a></li>
@@ -46,8 +46,8 @@
 <header class="page-head container">
   <div class="badge"><span class="dot"></span><span data-fr="5 piliers · SEO + Meta Ads + IA · 🍁 Canada" data-en="5 pillars · SEO + Meta Ads + AI · 🍁 Canada">5 piliers · SEO + Meta Ads + IA · 🍁 Canada</span></div>
   <h1 data-fr="Tout ce qu'une <span class='gradient-text'>agence facture 5k$/mois</span>" data-en="Everything an <span class='gradient-text'>agency bills $5k/month for</span>">Tout ce qu'une <span class="gradient-text">agence facture 5k$/mois</span></h1>
-  <p data-fr="Orivana livre un système marketing local IA complet chaque mois : SEO organique, publicités Meta avec génération de leads, et un agent IA qui répond à vos visiteurs 24/7. Rien à gérer : vous recevez, vous publiez, vous remplissez votre agenda." data-en="Orivana delivers a complete local AI marketing system every month: organic SEO, Meta ads with lead generation, and an AI agent that replies to your visitors 24/7. Nothing to manage: you receive, you publish, you fill your calendar.">
-    Orivana livre un système marketing local IA complet chaque mois : SEO organique, publicités Meta avec génération de leads, et un agent IA qui répond à vos visiteurs 24/7. Rien à gérer : vous recevez, vous publiez, vous remplissez votre agenda.
+  <p data-fr="Orivana livre un système marketing local IA complet chaque mois : SEO organique, publicités Meta avec génération de leads, et un agent IA qui répond à vos visiteurs 24/7. Rien à gérer : vous recevez, vous publiez, vous remplissez votre agenda. <strong>🔒 Un seul client par domaine d'activité, par ville.</strong>" data-en="Orivana delivers a complete local AI marketing system every month: organic SEO, Meta ads with lead generation, and an AI agent that replies to your visitors 24/7. Nothing to manage: you receive, you publish, you fill your calendar. <strong>🔒 One client per activity sector, per city.</strong>">
+    Orivana livre un système marketing local IA complet chaque mois : SEO organique, publicités Meta avec génération de leads, et un agent IA qui répond à vos visiteurs 24/7. Rien à gérer : vous recevez, vous publiez, vous remplissez votre agenda. <strong>🔒 Un seul client par domaine d'activité, par ville.</strong>
   </p>
 </header>
 
@@ -427,7 +427,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-col">
-        <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana Marketing</span></a>
+        <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana</span></a>
         <p data-fr="L'agence SEO propulsée par l'IA pour les commerces locaux." data-en="AI-powered SEO for local businesses.">L'agence SEO propulsée par l'IA pour les commerces locaux.</p>
       </div>
       <div class="footer-col">

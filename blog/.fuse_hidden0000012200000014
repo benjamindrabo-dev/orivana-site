@@ -37,8 +37,8 @@
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Référencement Google en 2026 : AI Overviews, E-E-A-T & map pack local",
-  "author": { "@type": "Organization", "name": "Orivana Marketing" },
-  "publisher": { "@type": "Organization", "name": "Orivana Marketing", "url": "https://orivanamarketing.com/" },
+  "author": { "@type": "Organization", "name": "Orivana" },
+  "publisher": { "@type": "Organization", "name": "Orivana", "url": "https://orivanamarketing.com/" },
   "datePublished": "2026-04-14",
   "dateModified": "2026-04-14",
   "mainEntityOfPage": "https://orivanamarketing.com/blog/referencement-google-2026.html",
@@ -234,7 +234,7 @@
   <div class="container">
     <div class="cta-banner">
       <h2>Votre référencement Google mérite un vrai plan</h2>
-      <p>Orivana livre l'audit + les 40 pages d'action sous 24 h. Sans contrat, sans engagement, audit livré sous 24h.</p>
+      <p>Orivana livre l'audit + les 40 pages d'action sous 24 h. Sans contrat, sans engagement, exclusivité secteur/ville garantie.</p>
       <a href="../contact.html" class="btn btn-primary btn-lg">Demander mon audit offert</a>
     </div>
   </div>

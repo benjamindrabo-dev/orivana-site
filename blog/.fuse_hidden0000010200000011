@@ -27,7 +27,7 @@
   "inLanguage": "fr-CA",
   "publisher": {
     "@type": "Organization",
-    "name": "Orivana Marketing",
+    "name": "Orivana",
     "url": "https://orivanamarketing.com/"
   }
 }
@@ -37,7 +37,7 @@
 
 <nav class="nav">
   <div class="nav-inner">
-    <a href="../index.html" class="logo"><span class="logo-mark">O</span><span>Orivana Marketing</span></a>
+    <a href="../index.html" class="logo"><span class="logo-mark">O</span><span>Orivana</span></a>
     <ul class="nav-links">
       <li><a href="../index.html" data-fr="Accueil" data-en="Home">Accueil</a></li>
       <li><a href="../services.html" data-fr="Services" data-en="Services">Services</a></li>
@@ -137,7 +137,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-col">
-        <a href="../index.html" class="logo"><span class="logo-mark">O</span><span>Orivana Marketing</span></a>
+        <a href="../index.html" class="logo"><span class="logo-mark">O</span><span>Orivana</span></a>
         <p data-fr="L'agence SEO IA qui combine référencement local, Meta Ads et contact IA 24/7 pour les commerces canadiens." data-en="The AI SEO agency combining local ranking, Meta Ads and 24/7 AI contact for Canadian businesses.">L'agence SEO IA qui combine référencement local, Meta Ads et contact IA 24/7 pour les commerces canadiens.</p>
       </div>
       <div class="footer-col">

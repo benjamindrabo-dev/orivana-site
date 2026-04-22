@@ -11,16 +11,16 @@
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%238b5cf6'/%3E%3Cstop offset='100%25' stop-color='%2322d3ee'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' font-family='Inter,sans-serif' font-size='36' font-weight='800' fill='white'%3EO%3C/text%3E%3C/svg%3E">
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Orivana Marketing">
+<meta property="og:site_name" content="Orivana">
 <meta property="og:title" content="Orivana — SEO IA + Meta Ads pour commerces locaux canadiens">
-<meta property="og:description" content="SEO local IA, Meta Ads avec lead gen, contact IA direct 24/7. À partir de 299$ CAD/mois. Sans contrat.">
+<meta property="og:description" content="SEO local IA, Meta Ads avec lead gen, contact IA direct 24/7. 299$/mois. Exclusivité garantie.">
 <meta property="og:url" content="https://orivanamarketing.com/">
 <meta property="og:locale" content="fr_CA">
 <meta property="og:locale:alternate" content="en_CA">
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Orivana — SEO IA + Meta Ads pour commerces locaux">
-<meta name="twitter:description" content="SEO local IA, Meta Ads avec lead gen, contact IA direct. À partir de 299$ CAD/mois. Sans contrat.">
+<meta name="twitter:description" content="SEO local IA, Meta Ads avec lead gen, contact IA direct. 299$/mois. Exclusivité garantie.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -33,7 +33,7 @@
     {
       "@type": "Organization",
       "@id": "https://orivanamarketing.com/#org",
-      "name": "Orivana Marketing",
+      "name": "Orivana",
       "url": "https://orivanamarketing.com/",
       "email": "hello@orivanamarketing.com",
       "telephone": "+1-514-000-0000",
@@ -46,7 +46,7 @@
       "@type": "WebSite",
       "@id": "https://orivanamarketing.com/#website",
       "url": "https://orivanamarketing.com/",
-      "name": "Orivana Marketing",
+      "name": "Orivana",
       "publisher": { "@id": "https://orivanamarketing.com/#org" },
       "inLanguage": ["fr-CA", "en-CA"]
     },
@@ -55,14 +55,14 @@
       "name": "SEO local IA",
       "provider": { "@id": "https://orivanamarketing.com/#org" },
       "areaServed": "Canada",
-      "offers": { "@type": "Offer", "price": "299", "priceCurrency": "CAD", "priceValidUntil": "2026-12-31" }
+      "offers": { "@type": "Offer", "price": "299", "priceCurrency": "USD", "priceValidUntil": "2026-12-31" }
     },
     {
       "@type": "Service",
       "name": "Meta Ads + génération de leads",
       "provider": { "@id": "https://orivanamarketing.com/#org" },
       "areaServed": "Canada",
-      "offers": { "@type": "Offer", "price": "200", "priceCurrency": "CAD", "priceValidUntil": "2026-12-31" }
+      "offers": { "@type": "Offer", "price": "150", "priceCurrency": "USD", "priceValidUntil": "2026-12-31" }
     }
   ]
 }
@@ -107,8 +107,8 @@
     <span data-fr="Votre commerce d'ici," data-en="Your local business,">Votre commerce d'ici,</span><br>
     <span class="gradient-text" data-fr="vu partout. Contacté 24/7." data-en="seen everywhere. Contacted 24/7.">vu partout. Contacté 24/7.</span>
   </h1>
-  <p class="hero-sub" data-fr="Orivana, c'est 3 leviers IA pour faire exploser vos leads locaux : <strong>SEO local</strong> (fiche Google, avis, citations ChatGPT), <strong>Meta Ads</strong> (Facebook + Instagram avec lead gen automatique), et <strong>contact IA direct</strong> (un agent Claude qui répond à vos visiteurs 24/7). À partir de 299$ CAD/mois. Sans agence. Sans contrat annuel." data-en="Orivana = 3 AI levers to explode your local leads: <strong>local SEO</strong> (Google profile, reviews, ChatGPT citations), <strong>Meta Ads</strong> (Facebook + Instagram with automatic lead gen), and <strong>direct AI contact</strong> (a Claude agent answering your visitors 24/7). From 299 $ CAD/month. No agency. No annual contract.">
-    Orivana, c'est 3 leviers IA pour faire exploser vos leads locaux : <strong>SEO local</strong> (fiche Google, avis, citations ChatGPT), <strong>Meta Ads</strong> (Facebook + Instagram avec lead gen automatique), et <strong>contact IA direct</strong> (un agent Claude qui répond à vos visiteurs 24/7). À partir de 299$ CAD/mois. Sans agence. Sans contrat annuel.
+  <p class="hero-sub" data-fr="Orivana, c'est 3 leviers IA pour faire exploser vos leads locaux : <strong>SEO local</strong> (fiche Google, avis, citations ChatGPT), <strong>Meta Ads</strong> (Facebook + Instagram avec lead gen automatique), et <strong>contact IA direct</strong> (un agent Claude qui répond à vos visiteurs 24/7). À partir de 299$ CAD/mois. Sans agence. Sans contrat annuel. <strong>🔒 Un seul client par domaine d'activité, par ville.</strong>" data-en="Orivana = 3 AI levers to explode your local leads: <strong>local SEO</strong> (Google profile, reviews, ChatGPT citations), <strong>Meta Ads</strong> (Facebook + Instagram with automatic lead gen), and <strong>direct AI contact</strong> (a Claude agent answering your visitors 24/7). From 299 $ CAD/month. No agency. No annual contract. <strong>🔒 One client per activity sector, per city.</strong>">
+    Orivana, c'est 3 leviers IA pour faire exploser vos leads locaux : <strong>SEO local</strong> (fiche Google, avis, citations ChatGPT), <strong>Meta Ads</strong> (Facebook + Instagram avec lead gen automatique), et <strong>contact IA direct</strong> (un agent Claude qui répond à vos visiteurs 24/7). À partir de 299$ CAD/mois. Sans agence. Sans contrat annuel. <strong>🔒 Un seul client par domaine d'activité, par ville.</strong>
   </p>
   <div class="hero-cta">
     <a href="#demo" class="btn btn-primary btn-lg" data-fr="🚀 Essayer la démo IA" data-en="🚀 Try the AI demo">🚀 Essayer la démo IA</a>
@@ -196,7 +196,7 @@
         <ul>
           <li data-fr="Audit IA mensuel (40 pages)" data-en="Monthly AI audit (40 pages)">Audit IA mensuel (40 pages)</li>
           <li data-fr="30 posts GBP prêts à publier" data-en="30 GBP posts ready to publish">30 posts GBP prêts à publier</li>
-          <li data-fr="🍁 100% canadien · service FR + EN" data-en="🍁 100% Canadian · FR + EN service">🍁 100% canadien · service FR + EN</li>
+          <li data-fr="Exclusivité par secteur / ville" data-en="Sector / city exclusivity">Exclusivité par secteur / ville</li>
         </ul>
       </div>
       <div class="card">
@@ -274,7 +274,7 @@
           <li data-fr="30 posts Google Business / mois" data-en="30 Google Business posts / month">30 posts Google Business / mois</li>
           <li data-fr="Citations ChatGPT / Perplexity / Google AI" data-en="ChatGPT / Perplexity / Google AI citations">Citations ChatGPT / Perplexity / Google AI</li>
           <li data-fr="Contact IA 24/7 inclus" data-en="24/7 AI contact included">Contact IA 24/7 inclus</li>
-          <li data-fr="🍁 Service canadien complet" data-en="🍁 Full Canadian service">🍁 Service canadien complet</li>
+          <li data-fr="🔒 Exclusivité secteur / ville" data-en="🔒 Sector / city exclusivity">🔒 Exclusivité secteur / ville</li>
         </ul>
         <a href="pricing.html" class="btn btn-ghost" style="width:100%" data-fr="Détails SEO →" data-en="SEO details →">Détails SEO →</a>
       </div>
@@ -302,9 +302,9 @@
 <section>
   <div class="container">
     <div class="cta-banner">
-      <h2 data-fr="Prêt à remplir votre calendrier ?" data-en="Ready to fill your calendar?">Prêt à remplir votre calendrier ?</h2>
-      <p data-fr="🍁 Agence canadienne 100%. Setup en 14 jours, résultats mesurables dès le 1er mois. Audit SEO local IA offert pour voir ce qu'on peut faire pour vous — sans engagement." data-en="🍁 100% Canadian agency. Setup in 14 days, measurable results from month 1. Free AI local SEO audit to see what we can do for you — no commitment.">🍁 Agence canadienne 100%. Setup en 14 jours, résultats mesurables dès le 1er mois. Audit SEO local IA offert pour voir ce qu'on peut faire pour vous — sans engagement.</p>
-      <a href="contact.html" class="btn btn-primary btn-lg" data-fr="Demander mon audit offert" data-en="Request my free audit">Demander mon audit offert</a>
+      <h2 data-fr="Votre concurrent n°1 vient peut-être de nous contacter." data-en="Your #1 competitor may have just contacted us.">Votre concurrent n°1 vient peut-être de nous contacter.</h2>
+      <p data-fr="🔒 Exclusivité garantie : <strong>un seul client par domaine d'activité, par ville</strong>. Si on prend un plombier à Montréal, aucun autre plombier de Montréal ne sera accepté. Premier arrivé, premier servi." data-en="🔒 Guaranteed exclusivity: <strong>one single client per activity sector, per city</strong>. If we take a plumber in Montreal, no other Montreal plumber will be accepted. First come, first served.">🔒 Exclusivité garantie : <strong>un seul client par domaine d'activité, par ville</strong>. Si on prend un plombier à Montréal, aucun autre plombier de Montréal ne sera accepté. Premier arrivé, premier servi.</p>
+      <a href="contact.html" class="btn btn-primary btn-lg" data-fr="Réserver mon secteur" data-en="Claim my sector">Réserver mon secteur</a>
     </div>
   </div>
 </section>
@@ -314,7 +314,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-col">
-        <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana Marketing</span></a>
+        <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana</span></a>
         <p data-fr="L'agence SEO propulsée par l'IA qui transforme les commerces locaux en leaders de leur map pack." data-en="The AI-powered SEO agency that turns local businesses into map-pack leaders.">
           L'agence SEO propulsée par l'IA qui transforme les commerces locaux en leaders de leur map pack.
         </p>

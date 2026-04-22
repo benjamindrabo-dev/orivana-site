@@ -21,7 +21,7 @@
 
 <nav class="nav">
   <div class="nav-inner">
-    <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana Marketing</span></a>
+    <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana</span></a>
     <ul class="nav-links">
       <li><a href="index.html" data-fr="Accueil" data-en="Home">Accueil</a></li>
       <li><a href="services.html" data-fr="Services" data-en="Services">Services</a></li>
@@ -152,7 +152,7 @@
         <div class="form-group">
           <label data-fr="Domaine d'activité" data-en="Activity sector">Domaine d'activité</label>
           <input type="text" name="service" required placeholder="plomberie d'urgence" data-fr-ph="plomberie d'urgence" data-en-ph="emergency plumbing">
-          <small style="color:var(--text-3); font-size:12px; display:block; margin-top:6px;" data-fr="Ex : plomberie d'urgence, soins esthétiques, rénovation salle de bain, clinique dentaire…" data-en="E.g. emergency plumbing, aesthetic treatments, bathroom renovation, dental clinic…">Ex : plomberie d'urgence, soins esthétiques, rénovation salle de bain, clinique dentaire…</small>
+          <small style="color:var(--text-3); font-size:12px; display:block; margin-top:6px;" data-fr="🔒 Un seul client par domaine, par ville — vérification d'exclusivité instantanée." data-en="🔒 One client per sector, per city — instant exclusivity check.">🔒 Un seul client par domaine, par ville — vérification d'exclusivité instantanée.</small>
         </div>
         <div class="form-group">
           <label data-fr="Site web (optionnel)" data-en="Website (optional)">Site web (optionnel)</label>
@@ -183,7 +183,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-col">
-        <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana Marketing</span></a>
+        <a href="index.html" class="logo"><span class="logo-mark">O</span><span>Orivana</span></a>
         <p data-fr="L'agence SEO propulsée par l'IA pour les commerces locaux." data-en="AI-powered SEO for local businesses.">L'agence SEO propulsée par l'IA pour les commerces locaux.</p>
       </div>
       <div class="footer-col">

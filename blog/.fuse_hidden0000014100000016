@@ -46,8 +46,8 @@
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "SEO en 2026 avec l'IA : ce qui change vraiment pour le référencement",
-  "author": { "@type": "Organization", "name": "Orivana Marketing", "url": "https://orivanamarketing.com/" },
-  "publisher": { "@type": "Organization", "name": "Orivana Marketing", "url": "https://orivanamarketing.com/" },
+  "author": { "@type": "Organization", "name": "Orivana", "url": "https://orivanamarketing.com/" },
+  "publisher": { "@type": "Organization", "name": "Orivana", "url": "https://orivanamarketing.com/" },
   "datePublished": "2026-04-17",
   "dateModified": "2026-04-17",
   "mainEntityOfPage": "https://orivanamarketing.com/blog/seo-2026-ia.html",
@@ -256,7 +256,7 @@
 
   <div class="callout">
     <p>
-      🎯 <strong>Pas le temps de tout gérer seul ?</strong> C'est exactement ce qu'Orivana construit chaque mois pour ses clients. <a href="../contact.html">Demandez votre audit SEO local gratuit</a> — on vous livre un rapport de 40 pages sous 24 h.
+      🎯 <strong>Pas le temps de tout gérer seul ?</strong> C'est exactement ce qu'Orivana construit chaque mois pour ses clients, avec exclusivité par secteur et par ville. <a href="../contact.html">Demandez votre audit SEO local gratuit</a> — on vous livre un rapport de 40 pages sous 24 h.
     </p>
   </div>
 
