@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Orivana — Plateforme d'automatisation pour vendeurs Amazon</title>
+<meta name="description" content="Orivana, opérée par Little Homie Ltd., est une plateforme d'automatisation et d'aide à la décision pour vendeurs Amazon : offres, tarification, FBA, communication acheteurs, finances, analytics.">
+<meta name="robots" content="index,follow">
+<style>
+  :root { --fg:#1a1a1a; --muted:#555; --accent:#1F4E79; --accent2:#2E75B6; --bg:#fff; --panel:#f6f8fa; --border:#e1e4e8; }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:var(--bg)}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+
+  .nav{background:var(--bg);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10}
+  .nav-inner{max-width:1100px;margin:0 auto;padding:14px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+  .brand{font-weight:700;font-size:20px;color:var(--accent)}
+  .nav nav a{margin-left:18px;color:var(--muted);font-weight:500}
+  .nav nav a:hover{color:var(--accent)}
+
+  .hero{background:linear-gradient(180deg,var(--panel) 0%,var(--bg) 100%);padding:80px 24px 60px;text-align:center}
+  .hero h1{font-size:44px;margin:0 0 16px;color:var(--accent);max-width:780px;margin-inline:auto;line-height:1.2}
+  .hero p.lead{font-size:19px;color:var(--muted);max-width:680px;margin:0 auto 28px}
+  .cta{display:inline-block;background:var(--accent);color:#fff;padding:14px 28px;border-radius:8px;font-weight:600;margin:0 6px}
+  .cta.secondary{background:transparent;color:var(--accent);border:2px solid var(--accent);padding:12px 26px}
+  .cta:hover{background:var(--accent2);text-decoration:none}
+
+  section{max-width:1100px;margin:0 auto;padding:60px 24px}
+  section h2{font-size:30px;color:var(--accent);margin:0 0 12px;text-align:center}
+  section .sub{color:var(--muted);text-align:center;max-width:680px;margin:0 auto 40px}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+  .card{background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:24px}
+  .card h3{margin:0 0 8px;font-size:18px;color:var(--accent)}
+  .card p{margin:0;color:var(--muted);font-size:15px}
+
+  .security{background:var(--panel)}
+  .security ul{max-width:780px;margin:0 auto;padding-left:22px}
+  .security li{margin:8px 0}
+
+  .about{text-align:center}
+  .about p{max-width:720px;margin:0 auto 12px;color:var(--muted)}
+
+  .contact{background:var(--panel);text-align:center}
+  .contact a.email{font-size:20px;font-weight:600;color:var(--accent)}
+
+  footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:13px;color:var(--muted)}
+  footer a{color:var(--muted);margin:0 8px}
+
+  @media (max-width:600px){
+    .hero h1{font-size:32px}
+    .hero p.lead{font-size:17px}
+    section{padding:40px 20px}
+    section h2{font-size:24px}
+  }
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="/">Orivana</a>
+    <nav>
+      <a href="#features">Fonctionnalités</a>
+      <a href="#security">Sécurité</a>
+      <a href="#about">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<section class="hero">
+  <h1>Pilotez votre boutique Amazon sans y passer vos journées</h1>
+  <p class="lead">Orivana est une plateforme d'automatisation et d'aide à la décision pour vendeurs Amazon. Offres, tarification, FBA, finances et analytics — tout dans un tableau de bord, en lecture directe de votre compte Selling Partner via OAuth.</p>
+  <a href="#contact" class="cta">Demander un accès anticipé</a>
+  <a href="#features" class="cta secondary">Voir les fonctionnalités</a>
+</section>
+
+<section id="features">
+  <h2>Ce que fait Orivana</h2>
+  <p class="sub">Huit modules connectés directement à l'API officielle Amazon Selling Partner, activés à la demande.</p>
+  <div class="grid">
+    <div class="card">
+      <h3>Offres &amp; catalogue</h3>
+      <p>Création et mise à jour des fiches produits, gestion du contenu A+ pour les marques Brand Registry, alertes sur les erreurs de listing.</p>
+    </div>
+    <div class="card">
+      <h3>Tarification dynamique</h3>
+      <p>Repricing automatisé selon vos règles : prix plancher, plafond, marge cible, alignement Buy Box. Calcul intégrant frais FBA et commissions.</p>
+    </div>
+    <div class="card">
+      <h3>Expédié par Amazon (FBA)</h3>
+      <p>Plans d'expédition inbound, suivi des stocks par centre, alertes ruptures et stocks vieillissants, recommandations de restock.</p>
+    </div>
+    <div class="card">
+      <h3>Stocks &amp; commandes</h3>
+      <p>Synchronisation temps réel vers votre back-office, suivi FBM, gestion des retours, rapprochement avec votre ERP.</p>
+    </div>
+    <div class="card">
+      <h3>Communication acheteur</h3>
+      <p>Messages conformes aux règles Amazon, templates pré-approuvés, historique centralisé. Tout passe par l'API Messaging d'Amazon.</p>
+    </div>
+    <div class="card">
+      <h3>Sollicitation d'avis</h3>
+      <p>Demandes d'avis automatiques via l'endpoint Solicitations API uniquement, dans la fenêtre Amazon de 5 à 30 jours après livraison.</p>
+    </div>
+    <div class="card">
+      <h3>Finances consolidées</h3>
+      <p>Récupération des settlements, fees, refunds. Export QuickBooks, Xero, Sage. Rapprochement automatique avec vos virements Amazon.</p>
+    </div>
+    <div class="card">
+      <h3>Brand Analytics</h3>
+      <p>Pour les marques Brand Registry : termes de recherche performants, démographie, comportement d'achat, opportunités produits.</p>
+    </div>
+  </div>
+</section>
+
+<section id="security" class="security">
+  <h2>Sécurité de niveau Amazon DPP</h2>
+  <p class="sub">Conformité à la Data Protection Policy d'Amazon Selling Partner API.</p>
+  <ul>
+    <li>Connexion à votre compte via OAuth officiel Amazon (Login with Amazon). Aucun partage de mot de passe, aucun scraping.</li>
+    <li>Chiffrement TLS 1.2+ pour toutes les communications, chiffrement au repos pour tokens et données opérationnelles.</li>
+    <li>Secrets gérés via secret manager dédié — jamais hardcodés, jamais publiés dans des dépôts.</li>
+    <li>Pare-feu réseau, détection d'intrusion (Fail2ban), antivirus (ClamAV), segmentation des environnements production / staging / dev.</li>
+    <li>Authentification multifacteur obligatoire pour tous les accès administratifs, mots de passe d'au moins 12 caractères, rotation annuelle.</li>
+    <li>Journalisation complète des accès, surveillance continue, accès limité au strict nécessaire (principe du moindre privilège).</li>
+    <li>Plan de réponse aux incidents formel, évalué semestriellement, avec notification à <a href="mailto:security@amazon.com">security@amazon.com</a> et au vendeur concerné dans les 24 heures suivant la détection d'un incident.</li>
+    <li>Aucune revente, location ou partage de vos données à des tiers commerciaux.</li>
+  </ul>
+</section>
+
+<section id="about" class="about">
+  <h2>À propos de Little Homie Ltd.</h2>
+  <p>Orivana est édité par <strong>Little Homie Ltd.</strong>, société de droit canadien, dirigée par Moise Etienne Drabo. Notre mission : démocratiser l'accès aux bonnes pratiques d'automatisation Amazon pour les vendeurs indépendants et les PME, en complément de programmes de formation et d'accompagnement opérationnels.</p>
+  <p>Nous sommes inscrits au programme Amazon Solution Provider et opérons exclusivement via l'API officielle Amazon Selling Partner.</p>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p class="sub">Une question, une demande d'accès anticipé, un sujet de conformité ?</p>
+  <p><a class="email" href="mailto:01_heros_rotor@icloud.com">01_heros_rotor@icloud.com</a></p>
+  <p style="color:var(--muted);font-size:14px">Little Homie Ltd. · Canada</p>
+</section>
+
+<footer>
+  © 2026 Little Homie Ltd. · Orivana est une marque exploitée par Little Homie Ltd.
+  <br>
+  <a href="/privacy.html">Politique de confidentialité</a>
+  <a href="/terms.html">Conditions générales d'utilisation</a>
+  <a href="mailto:01_heros_rotor@icloud.com">Contact</a>
+</footer>
+
+</body>
+</html>
