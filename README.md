@@ -1,5 +1,4 @@
-# Site Orivana — déploiement sur GitHub Pages
-
+# Site Orivana — déploiement sur Vercel
 Site vitrine de **Orivana**, plateforme d'automatisation pour vendeurs Amazon, opérée par **Little Homie Ltd.**
 
 ## 📁 Contenu
