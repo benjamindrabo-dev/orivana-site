@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -287,6 +286,7 @@
   #gift.opening .giftsvg{animation:none;transform:scale(1.12)}
   #gift.opening .g-lid{transform:translateY(-135px) rotate(-16deg);opacity:0}
   #gift.opening .g-bow{transform:translateY(-185px) rotate(20deg) scale(.85);opacity:0}
+  #ytmount{position:fixed;right:0;bottom:0;width:2px;height:2px;opacity:.02;border:0;pointer-events:none;z-index:0}
 </style>
 </head>
 <body>
@@ -306,7 +306,6 @@
     </svg>
   </button>
   <div class="ghint">👆 Clique pour ouvrir</div>
-  <div class="gsub">Le son se lance avec le cadeau 🔊</div>
 </div>
 
 
@@ -703,13 +702,7 @@ Profite bien de ta journée, le kôrô.</p>
   <span class="eq"><i></i><i></i><i></i><i></i></span>
   <span id="mlabel">Mets la musique</span>
 </button>
-<div class="musicpanel" id="musicPanel" aria-hidden="true">
-  <div class="phead">
-    <div><div class="ptitle">🎶 Musique</div><div class="psub">Joyeux anniversaire, Ephy !</div></div>
-    <button class="pclose" id="musicClose" type="button" aria-label="Fermer">✕</button>
-  </div>
-  <div class="vidwrap" id="vidWrap"></div>
-</div>
+<div id="ytmount" aria-hidden="true"></div>
 
 <!-- ===== LIGHTBOX ===== -->
 <div class="lb" id="lb">
@@ -809,18 +802,22 @@ var Lightbox=(function(){
   pfs.forEach(function(f,i){f.addEventListener('click',function(){Lightbox.open(list,i);});});
 })();
 
-/* ===== Music ===== */
+/* ===== Musique (API YouTube, en fond, en boucle) ===== */
 (function(){
   var YT_ID='dNEnzdcnWzE';
-  var fab=document.getElementById('musicFab'),panel=document.getElementById('musicPanel'),wrap=document.getElementById('vidWrap'),label=document.getElementById('mlabel'),closeBtn=document.getElementById('musicClose'),playing=false;
-  function start(){if(playing)return;var f=document.createElement('iframe');f.title='Musique';f.allow='autoplay; encrypted-media; picture-in-picture';f.setAttribute('allowfullscreen','');f.src='https://www.youtube.com/embed/'+YT_ID+'?autoplay=1&rel=0&modestbranding=1&playsinline=1';wrap.innerHTML='';wrap.appendChild(f);panel.classList.add('open');panel.setAttribute('aria-hidden','false');fab.classList.add('playing');fab.setAttribute('aria-pressed','true');label.textContent='Couper la musique';playing=true;}
-  function stop(){wrap.innerHTML='';panel.classList.remove('open');panel.setAttribute('aria-hidden','true');fab.classList.remove('playing');fab.setAttribute('aria-pressed','false');label.textContent='Mets la musique';playing=false;}
-  fab.addEventListener('click',function(){playing?stop():start();});
-  closeBtn.addEventListener('click',stop);
-  // Lecture auto au tout premier geste (les navigateurs bloquent le son avant interaction)
-  var kicked=false;
-  function kick(){ if(kicked||playing) return; kicked=true; start(); ['pointerdown','keydown','touchstart','touchmove','wheel','click','scroll'].forEach(function(e){window.removeEventListener(e,kick,true);}); }
-  window.__music=start;
+  var fab=document.getElementById('musicFab'),label=document.getElementById('mlabel');
+  var player=null,ready=false,on=false,pending=false;
+  window.onYouTubeIframeAPIReady=function(){
+    player=new YT.Player('ytmount',{videoId:YT_ID,
+      playerVars:{autoplay:0,controls:0,disablekb:1,fs:0,playsinline:1,rel:0,modestbranding:1,loop:1,playlist:YT_ID},
+      events:{onReady:function(){ready=true;if(pending)play();},
+        onStateChange:function(e){if(e.data===YT.PlayerState.ENDED){try{player.seekTo(0);player.playVideo();}catch(x){}}}}});
+  };
+  var t=document.createElement('script');t.src='https://www.youtube.com/iframe_api';document.head.appendChild(t);
+  function play(){ if(!ready){pending=true;return;} try{player.unMute();player.setVolume(100);player.playVideo();}catch(e){} on=true;pending=false; if(fab){fab.classList.add('playing');fab.setAttribute('aria-pressed','true');} if(label)label.textContent='Couper la musique'; }
+  function stop(){ if(ready){try{player.pauseVideo();}catch(e){}} on=false; if(fab){fab.classList.remove('playing');fab.setAttribute('aria-pressed','false');} if(label)label.textContent='Mets la musique'; }
+  if(fab) fab.addEventListener('click',function(){ on?stop():play(); });
+  window.__music=play;
 })();
 </script>
 <script>
